@@ -1,0 +1,32 @@
+{
+  "name": "space-tourism-api",
+  "version": "0.3.0",
+  "description": "Space tourism API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhanca-vm/space-tourism-api.git"
+  },
+  "keywords": [
+    "api",
+    "space tourism"
+  ],
+  "author": "Jhan Viloria",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jhanca-vm/space-tourism-api/issues"
+  },
+  "homepage": "https://github.com/jhanca-vm/space-tourism-api#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "sequelize": "^7.0.0-alpha.4",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

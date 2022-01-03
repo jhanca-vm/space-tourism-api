@@ -1,1 +1,1 @@
-# space-tourism-api
+# Space tourism API
