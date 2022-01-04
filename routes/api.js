@@ -1,8 +1,10 @@
 const { Router } = require('express')
-const { getDestinations } = require('../controllers/api')
+const { getData } = require('../controllers/api')
 
 const router = Router()
 
-router.get('/destinations', getDestinations)
+router.get('/destinations', getData)
+router.get('/crew', getData)
+router.get('/technology', getData)
 
 module.exports = router
