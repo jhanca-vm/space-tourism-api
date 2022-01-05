@@ -1,0 +1,32 @@
+body {
+  background-color: #fcfcfc;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 32px 0 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+code {
+  background-color: rgba(0, 128, 128, 0.1);
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 8px 8px 6px;
+}
+
+code b {
+  color: teal;
+}
+
+p b {
+  font-size: 14px;
+}

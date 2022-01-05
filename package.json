@@ -1,6 +1,6 @@
 {
   "name": "space-tourism-api",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "Space tourism API",
   "main": "app.js",
   "scripts": {
@@ -20,8 +20,9 @@
   "bugs": {
     "url": "https://github.com/jhanca-vm/space-tourism-api/issues"
   },
-  "homepage": "https://github.com/jhanca-vm/space-tourism-api#readme",
+  "homepage": "https://space-tourism-api.fly.dev",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.2",
     "sequelize": "^7.0.0-alpha.4",
     "sqlite3": "^5.0.2"
